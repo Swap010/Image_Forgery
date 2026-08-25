@@ -1,0 +1,66 @@
+# --- Python / environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# --- IDE / editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Jupyter notebook checkpoints ---
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# --- DATASETS (do NOT commit CASIA - it's massive & redistribution is restricted) ---
+data/
+*.jpg
+*.jpeg
+*.png
+!tests/*.jpg
+!tests/*.jpeg
+!tests/*.png
+
+# --- TRAINED MODEL WEIGHTS (large - regenerate by running training scripts) ---
+models/
+*.pth
+*.pkl
+
+# --- Logs ---
+*.log
+logs/
+
+# --- OS junk ---
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
